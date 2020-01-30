@@ -10,7 +10,10 @@ Linkedin: [Pavel Zaitsau](https://linkedin.com/in/pavel-s-zaitsau)
 
 ## Summary
 
-Hey! I am Pavel and I can write code much better than essay that’s why feel free to ask me anything. In my free time I like boarding (skateboard, snowboard, etc.) and travelling by car. I like winter more than summer and spring more than autumn. I have been doing programming since 2006. Interesting fact about me: I love cats ^_^. But to be serious I’m a technical guy with over 8 years of experience in building web applications for desktop and mobile devices. I have a successful track record of translating business requirements into innovative solutions which meet and exceed expectations. Moreover, I specialize in web development and Domain-Driven Design with the most experience in Microsoft technologies. I’m passionate about software design, architecture and design patterns.
+Hey! I am Pavel and I can write code much better than essay that’s why feel free to ask me anything. In my free time I like boarding (skateboard, snowboard, etc.) and travelling by car. I like winter more than summer and spring more than autumn. I have been doing programming since 2006 and love cats ^_^
+
+
+But to be serious I’m a technical guy with over 8 years of experience in building web applications for desktop and mobile devices. I have a successful track record of translating business requirements into innovative solutions which meet and exceed expectations. Moreover, I specialize in web development and Domain-Driven Design with the most experience in Microsoft technologies. I’m passionate about software design, architecture and design patterns.
 
 I'm good in:
 
@@ -39,8 +42,11 @@ Software delivery; CI/CD; .NET; SQL Server; API; GIT; SVN; Jenkins; TeamCity; Po
 Russian (native); English (intermediate)
 
 ## Experience
+### Contractor at Domino’s Pizza UK & Ireland (Senior Software Engineer at Godel Technologies)
 
-### Senior Software Engineer at Coral Technology LLC
+Jun 2019 – Jan 2020
+
+### Senior Software Engineer at Coral Technology
 
 Mar 2017 – May 2019
 
@@ -52,7 +58,7 @@ Feb 2012 – Mar 2017
 
 Sep 2014 – Mar 2017
 
-### Key Developer at Netologic Inc
+### Key Developer at Netologic
 
 Sep 2011 – Jul 2014
 
