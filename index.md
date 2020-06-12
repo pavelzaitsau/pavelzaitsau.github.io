@@ -83,7 +83,7 @@ High School, 2007 – 2009
 
 Jun 2019 – Jan 2020
 
-Next generation E-Commerce platform using best of the breed technologies, processes and architecture principals. As a Senior software Engineer I was responsible for design and delivery of services that collectively form part of the Domino’s new multi-market high performance platform designed to serve multiple markets.
+Next-generation E-Commerce platform using best of the breed technologies, processes and architecture principals. As a Senior Software Engineer I was responsible for design and delivery of services that collectively form part of the Domino’s new multi-market high-performance platform designed to serve multiple markets.
 
 Participation:
 
