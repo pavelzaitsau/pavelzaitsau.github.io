@@ -1,6 +1,6 @@
 # Pavel Zaitsau
 
-## Senior Software Engineer
+## Senior Software Engineer \ Team Leader
 
 email/skype: pavel.zaitsau (at) hotmail.com
 
@@ -13,12 +13,13 @@ Linkedin: [Pavel Zaitsau](https://linkedin.com/in/pavel-s-zaitsau)
 Hey! I am Pavel and I can write code much better than essay that’s why feel free to ask me anything. In my free time I like boarding (skateboard, snowboard, etc.) and travelling by car. I like winter more than summer and spring more than autumn. I have been doing programming since 2006 and love cats ^_^
 
 
-But to be serious I’m a technical guy with over 8 years of experience in building web applications for desktop and mobile devices. I have a successful track record of translating business requirements into innovative solutions which meet and exceed expectations. Moreover, I specialize in web development and Domain-Driven Design with the most experience in Microsoft technologies. I’m passionate about software design, architecture and design patterns.
+But to be serious I’m a technical guy with over 10 years of experience in building web applications for desktop and mobile devices. I have a successful track record of translating business requirements into innovative solutions which meet and exceed expectations. Moreover, I specialize in web development and Domain-Driven Design with the most experience in Microsoft technologies. I’m passionate about software design, architecture and design patterns.
 
 I'm good in:
 
 * Complex distributed systems development
-* .NET Framework, .NET Core
+* Microservices
+* .NET
 * CD/CI
 * Architectural design
 * Code review and refactoring
@@ -35,13 +36,17 @@ That’s what I like to do in my free time:
 
 ## Skills
 
-Software delivery; CI/CD; .NET; SQL Server; API; GIT; SVN; Jenkins; TeamCity; PowerShell; Selenium; JS; Redis; Rabbit MQ; Logstash; Kibana;
+Software delivery; Microservices; CI/CD; .NET; Docker; Azure; SQL Server; MongoDB; PostgreSQL; Redis; RabbitMQ; ELK; Jenkins; TeamCity; Selenium; JS;
 
 ## Languages
 
 Russian (native); English (intermediate)
 
 ## Experience
+### Team Leader at VEB Technologies (Bank BelVEB OJSC)
+
+Jan 2020 – NOW
+
 ### Contractor at Domino’s Pizza UK & Ireland (Senior Software Engineer at Godel Technologies)
 
 Jun 2019 – Jan 2020
@@ -73,6 +78,24 @@ Engineer’s Degree, Automated processing systems, 2009 – 2014
 High School, 2007 – 2009
 
 ## Projects
+
+### Dominos's E-Commerce platform
+
+Jun 2019 – Jan 2020
+
+Next-generation E-Commerce platform using best of the breed technologies, processes and architecture principals. As a Senior Software Engineer I was responsible for design and delivery of services that collectively form part of the Domino’s new multi-market high-performance platform designed to serve multiple markets.
+
+Participation:
+
+* Following Agile principals, delivering features sets iteratively
+* Working closely with project stakeholders
+* Working closely with Software Testers to develop automated design test strategies
+* Working with Product Owners and Scrum Masters to ensure the Scrum process runs effectively and that any blockers identified are effectively removed
+* Provide mentoring, assistance to team members and give tech talks to help raise the standard across the team
+
+Technologies: Reactive Microservices; Azure Kubernetes (AKS) Service; .NET Core 3
+
+---
 
 ### Coral MSP
 
