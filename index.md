@@ -43,7 +43,7 @@ Software delivery; Microservices; CI/CD; .NET; Docker; Azure; SQL Server; MongoD
 Russian (native); English (intermediate)
 
 ## Experience
-### Team Leader at Veb Technology (Bank BelVEB OJSC)
+### Team Leader at VEB Technologies (Bank BelVEB OJSC)
 
 Jan 2020 – NOW
 
