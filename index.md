@@ -79,6 +79,26 @@ High School, 2007 – 2009
 
 ## Projects
 
+### BelVEB's B2B platform
+
+Jan 2020 - NOW
+
+A highly integrated B2B fintech platform allowing customers to use diverse financial and banking tools alongside with the partnership services and programs facilitating synergetic approach in business.
+
+Participation:
+
+* Management of development, implementation and automated testing
+* Solution and infrastructure design
+* Design, planning, estimations and delivery
+* More than 5 developers in a direct reporting
+* Mentoring and recruting
+* Tons of microservices in a private cloud
+* From sketches and wireframes to release
+
+Technologies: Docker, k8s, .net core, Mongo, Redis, Rabbit, Zookeeper, Postgres, ELK
+
+---
+
 ### Dominos's E-Commerce platform
 
 Jun 2019 – Jan 2020
