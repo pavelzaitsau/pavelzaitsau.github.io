@@ -1,5 +1,6 @@
 # Pavel Zaitsau
 
+
 ## Senior Software Engineer \ Team Leader
 
 email/skype: pavel.zaitsau (at) hotmail.com
@@ -7,6 +8,7 @@ email/skype: pavel.zaitsau (at) hotmail.com
 telegram: [@pavelzaitsau](https://t.me/PavelZaitsau)
 
 Linkedin: [Pavel Zaitsau](https://linkedin.com/in/pavel-s-zaitsau)
+
 
 ## Summary
 
@@ -31,51 +33,42 @@ That’s what I like to do in my free time:
 * Evening coding for pet-projects
 * Snowboarding
 * Skateboarding
-* Photo (follow me: [@pavelzaitsau](https://www.instagram.com/pavelzaitsau))
+* Photo (follow me: [instagram](https://instagram.com/pavelzaitsau))
+* Wine (follow me: [vivino](https://vivino.com/users/pavelzaitsau))
 * Car trips
+
 
 ## Skills
 
 Software delivery; Microservices; CI/CD; .NET; Docker; Azure; SQL Server; MongoDB; PostgreSQL; Redis; RabbitMQ; ELK; Jenkins; TeamCity; Selenium; JS;
 
+
 ## Languages
 
 Russian (native); English (intermediate)
 
+
 ## Experience
-### Team Leader at VEB Technologies (Bank BelVEB OJSC)
 
-Jan 2020 – NOW
+Jan 2020 – NOW: **Team Leader** at VEB Technologies (Bank BelVEB OJSC)
 
-### Contractor at Domino’s Pizza UK & Ireland (Senior Software Engineer at Godel Technologies)
+Jun 2019 – Jan 2020: **Contractor** at Domino’s Pizza UK & Ireland (Senior Software Engineer at Godel Technologies)
 
-Jun 2019 – Jan 2020
+Mar 2017 – May 2019: **Senior Software Engineer** at Coral Technology
 
-### Senior Software Engineer at Coral Technology
+Feb 2012 – Mar 2017: **Development Lead** at Belarusian-Russian University
 
-Mar 2017 – May 2019
+Sep 2014 – Mar 2017: **Contractor** at Wolters Kluwer (Senior Software Engineer at EPAM Systems)
 
-### Development Lead at Belarusian-Russian University
+Sep 2011 – Jul 2014: **Key Developer** at Netologic
 
-Feb 2012 – Mar 2017
-
-### Contractor at Wolters Kluwer (Senior Software Engineer at EPAM Systems)
-
-Sep 2014 – Mar 2017
-
-### Key Developer at Netologic
-
-Sep 2011 – Jul 2014
 
 ## Education
 
-### Belarusian-Russian University
+2009 – 2014: **Belarusian-Russian University**; Engineer’s Degree, Automated processing systems
 
-Engineer’s Degree, Automated processing systems, 2009 – 2014
+2007 – 2009: **Mogilev regional Lyceum #3**; High School
 
-### Mogilev regional Lyceum #3
-
-High School, 2007 – 2009
 
 ## Projects
 
@@ -113,7 +106,7 @@ Participation:
 * Working with Product Owners and Scrum Masters to ensure the Scrum process runs effectively and that any blockers identified are effectively removed
 * Provide mentoring, assistance to team members and give tech talks to help raise the standard across the team
 
-Technologies: Reactive Microservices; Azure Kubernetes (AKS) Service; .NET Core 3
+Technologies: Azure, Docker, k8s, .net core
 
 ---
 
