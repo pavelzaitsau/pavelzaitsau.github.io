@@ -50,7 +50,7 @@ Russian (native); English (intermediate)
 
 ## Experience
 
-2020 – PRESENT: **Team Leader** at VEB Technologies (Bank BelVEB OJSC)
+2020 – 2021: **Team Leader** at VEB Technologies (Bank BelVEB OJSC)
 
 2019 – 2020: **Contractor** at Domino’s Pizza UK & Ireland (Godel Technologies)
 
@@ -74,7 +74,7 @@ Russian (native); English (intermediate)
 
 ### BelVEB's B2B platform
 
-Jan 2020 - PRESENT
+Jan 2020 - Apr 2021
 
 A highly integrated B2B fintech platform allowing customers to use diverse financial and banking tools alongside the partnership services and programs facilitating a synergetic approach in business.
 
