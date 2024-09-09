@@ -1,6 +1,6 @@
 # Pavel Zaitsau
 
-## Senior Software Consultant \ Team Leader
+## Senior Software Consultant \ Team Leader \ Scrum master
 
 email/skype: pavel.zaitsau (at) hotmail.com
 
@@ -57,7 +57,7 @@ dotnet; docker; azure; aws; mongo; postgre; sql server; redis; rabbit; elk; jenk
 
 Apr 2021 - Aug 2022
 
-As part of the development team for Ryanair's internal schedule management system, I was responsible for designing and building microservices, collaborating with other teams to identify areas for improvement, and delivering solutions to increase efficiency and productivity. I've been working on the design and implementation of key infrastructure components, ensuring that all work was carried out in accordance with industry best practices and standards.
+As part of the development team for Ryanair's internal schedule management system. Probably your flight was canceled using the services I was developing 😅 I was responsible for designing and building microservices, collaborating with other teams to identify areas for improvement, and delivering solutions to increase efficiency and productivity. I've been working on the design and implementation of key infrastructure components, ensuring that all work was carried out by industry best practices and standards.
 
 During my tenure at Ryanair, I demonstrated a strong background in microservices development using the AWS and .NET Core stacks, and I was highly familiar with agile development methodologies and continuous integration/continuous deployment (CI/CD) practices. I possess excellent problem-solving skills and communication skills, and I am highly effective at working collaboratively as part of a team.
 
