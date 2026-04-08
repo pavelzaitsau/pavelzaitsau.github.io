@@ -1,6 +1,6 @@
 # Pavel Zaitsau
 
-## Team Leader | Scrum Master | Senior Software Engineer
+## Team Leader | Senior Software Engineer
 
 email: [pavel.zaitsau@hotmail.com](mailto:pavel.zaitsau@hotmail.com)
 
@@ -12,27 +12,29 @@ telegram: [pavelzaitsau](https://t.me/PavelZaitsau)
 
 ## Summary
 
-Hands-on technical leader with 15+ years of experience delivering web platforms, microservices, and data-heavy systems at scale. I combine leadership with deep engineering expertise in systems design, cloud platforms, CI/CD, and performance tuning. Recognized for clear architecture, pragmatic delivery, and raising engineering standards through reviews, testing, and mentoring. Skilled at aligning product, security, and ops to ship reliable, scalable software. Practical, fast, and trusted to get things done.
+Hands-on technical leader with 15+ years of experience delivering web platforms, microservices, and data-heavy systems at scale. I combine leadership with deep engineering expertise in systems design, cloud platforms, CI/CD, and performance tuning. Recognized for clear architecture, pragmatic delivery, and raising engineering standards through reviews, testing, and mentoring. Skilled at aligning product, security, and ops to ship reliable, scalable software. Practical, fast, and trusted to get things done. Actively driving AI adoption across the organisation — led design and delivery of transformer-based analysis subsystems and championed practical ML integration in production systems.
 
 ## Stack
 
-.NET, Azure, AWS, Kubernetes, Docker, PostgreSQL, SQL Server, MongoDB, Redis, RabbitMQ, Elasticsearch, Apache Airflow, GitHub, Jenkins, TeamCity
+.NET, Azure, AWS, Kubernetes, Docker, PostgreSQL, SQL Server, MongoDB, Redis, RabbitMQ, Elasticsearch, Apache Airflow, GitHub, Jenkins, TeamCity, Python, Transformer Models (speech-to-text, image classification, NLP), LLMs
 
 ## Experience
 
 2022 – present: **Team Lead** at ADF Solutions
 
+2025 – present: **Co-Founder** at Góra Print
+
 2021 – 2022: **Software Engineer** at Ryanair
 
 2020 – 2021: **Team Lead** at VEB Technologies (Bank BelVEB OJSC)
 
-2019 – 2020: **Contractor** at Domino's Pizza UK & Ireland (via Godel Technologies)
+2019 – 2020: **Senior Software Engineer** at Domino's Pizza UK & Ireland (via Godel Technologies)
 
 2017 – 2019: **Senior Software Engineer** at Coral Technology
 
 2012 – 2017: **Team Lead** at Belarusian-Russian University
 
-2014 – 2017: **Contractor** at Wolters Kluwer (via EPAM Systems)
+2014 – 2017: **Senior Software Engineer** at Wolters Kluwer (via EPAM Systems)
 
 2011 – 2014: **Key Developer** at Netologic Inc. (Investars)
 
@@ -52,16 +54,35 @@ Led the development of a software appliance for forensic data analysis and case 
 
 Achievements:
 
-- Led platform and integration architecture
+- Drove AI adoption across the engineering team; championed practical ML integration
+- Designed and implemented two data analysis subsystems powered by transformer models
+- Delivered production AI modules: speech-to-text, CPU-only image classification, and text summarization
 - Designed Kubernetes-based infrastructure and deployments
-- Established CI/CD and release governance
-- Managed delivery for a hybrid team of 5–6 engineers; ran Agile ceremonies; coordinated with contractors/vendors
-- Drove code quality via reviews, refactoring, and standards
-- Built core .NET services/modules for scalable data processing
+- Managed delivery for a hybrid team of 5–9 engineers; ran Agile ceremonies; coordinated with contractors/vendors
 - Implemented search and indexing with Elasticsearch
-- Aligned roadmap and priorities with stakeholders
+- Built a proof-of-concept for natural language to Elasticsearch query translation
+- Established CI/CD and release governance
+- Built core .NET services/modules for scalable data processing
 
-Technologies: .NET, Kubernetes, Docker, Azure, Apache Airflow, Elasticsearch, GitHub
+Technologies: .NET, Kubernetes, Docker, Azure, Apache Airflow, Elasticsearch, GitHub, Python, Transformer Models, LLMs
+
+---
+
+### Góra Print
+
+2025 – present
+
+A pet business project building custom 3D-printed physical terrain models from open geospatial data. Combines cartographic data processing, terrain modeling, and small-scale manufacturing into an end-to-end product. [instagram.com/goraprint](https://www.instagram.com/goraprint/)
+
+Achievements:
+
+- Built a Python pipeline for terrain model generation from open geospatial data (FABDEM, OpenStreetMap) — real topography, water networks, elevation gradients, and surface relief
+- Built a Python toolchain for preparing terrain models for 3D print production
+- Designed and implemented AI-powered customer workflow: order intake via LLM-based conversation, payment integration, and shipping preparation
+
+Technologies: Python, FABDEM, OpenStreetMap, Transformer Models, LLMs, 3D printing
+
+*P.S. Want a 3D model of your epic trail? Just reach out — early customers get a discount ;)*
 
 ---
 
@@ -69,9 +90,7 @@ Technologies: .NET, Kubernetes, Docker, Azure, Apache Airflow, Elasticsearch, Gi
 
 Apr 2021 – Aug 2022
 
-Part of the team behind Ryanair's internal schedule management system. I designed and built microservices, collaborated across teams to improve processes, and delivered infrastructure components aligned with best practices.
-
-During my tenure at Ryanair, I demonstrated a strong background in microservices development using the AWS and .NET Core stacks, and I was highly familiar with agile development methodologies and continuous integration/continuous deployment (CI/CD) practices. I possess excellent problem-solving skills and communication skills, and I am highly effective at working collaboratively as part of a team.
+Backend engineer on Ryanair's internal schedule management system — one of Europe's largest low-cost carriers. Designed and shipped microservices for flight schedule management, led a zero-incident .NET migration, and improved CI pipeline reliability across the team.
 
 Achievements:
 
