@@ -1,6 +1,6 @@
 # Pavel Zaitsau
 
-## Team Leader | Scrum Master | Senior Software Engineer
+## Tech Lead · AI / ML Systems
 
 email: [pavel.zaitsau@hotmail.com](mailto:pavel.zaitsau@hotmail.com)
 
@@ -10,68 +10,90 @@ github: [pavelzaitsau](https://github.com/pavelzaitsau)
 
 telegram: [pavelzaitsau](https://t.me/PavelZaitsau)
 
+facebook: [pavel.s.zaitsau](https://www.facebook.com/pavel.s.zaitsau)
+
+instagram: [pavelzaitsau](https://www.instagram.com/pavelzaitsau)
+
 ## Summary
 
-Hands-on technical leader with 15+ years of experience delivering web platforms, microservices, and data-heavy systems at scale. I combine leadership with deep engineering expertise in systems design, cloud platforms, CI/CD, and performance tuning. Recognized for clear architecture, pragmatic delivery, and raising engineering standards through reviews, testing, and mentoring. Skilled at aligning product, security, and ops to ship reliable, scalable software. Practical, fast, and trusted to get things done.
+Hands-on technical leader with 15+ years of experience, now focused on shipping AI/ML systems to production. I designed and delivered a production RAG system over forensic data, built on Elasticsearch: hybrid retrieval, cross-encoder reranking, LLM orchestration in .NET, and on-prem model serving for sensitive, isolated environments. This builds on deep engineering in systems design, cloud platforms, microservices, CI/CD, and performance tuning at scale. Recognized for clear architecture, pragmatic delivery, and raising engineering standards through reviews, testing, and mentoring. Practical, fast, and trusted to get things done.
 
 ## Stack
 
-.NET, Azure, AWS, Kubernetes, Docker, PostgreSQL, SQL Server, MongoDB, Redis, RabbitMQ, Elasticsearch, Apache Airflow, GitHub, Jenkins, TeamCity
+**AI / ML:** RAG, LLMs, LLM orchestration, LLM-agnostic backends, Semantic Kernel, Hugging Face Transformers, PyTorch, TensorFlow, OCR & document understanding, computer vision, object detection, speech-to-text, vector search & embeddings, hybrid retrieval, cross-encoder reranking, on-prem model serving, fine-tuning, NLP
+
+**Engineering:** C# / .NET, Python, JavaScript, Bash, Azure, AWS, Kubernetes, Docker, PostgreSQL, SQL Server, MongoDB, Redis, RabbitMQ, Elasticsearch, Apache Airflow, GitHub Actions, Jenkins, TeamCity
 
 ## Experience
 
-2022 – present: **Team Lead** at ADF Solutions
+2022 - present: **Tech Lead, AI / ML** at ADF Solutions, Inc
 
-2021 – 2022: **Software Engineer** at Ryanair
+2025 - present: **Co-Founder** at Góra Print
 
-2020 – 2021: **Team Lead** at VEB Technologies (Bank BelVEB OJSC)
+2021 - 2022: **Software Engineer** at Ryanair
 
-2019 – 2020: **Contractor** at Domino's Pizza UK & Ireland (via Godel Technologies)
+2020 - 2021: **Tech Lead** at VEB Technologies
 
-2017 – 2019: **Senior Software Engineer** at Coral Technology
+2019 - 2020: **Senior Software Engineer** at Domino's Pizza UK & Ireland (via Godel Technologies)
 
-2012 – 2017: **Team Lead** at Belarusian-Russian University
+2017 - 2019: **Senior Software Engineer** at Coral Technology
 
-2014 – 2017: **Contractor** at Wolters Kluwer (via EPAM Systems)
+2014 - 2017: **Senior Software Engineer** at Wolters Kluwer (via EPAM Systems)
 
-2011 – 2014: **Key Developer** at Netologic Inc. (Investars)
+2012 - 2017: **Tech Lead** at Belarusian-Russian University
+
+2011 - 2014: **Key Developer** at Netologic Inc. (Investars)
 
 ## Education
 
-2009 – 2014: **Belarusian-Russian University**; Engineer's Degree, Automated Processing Systems
+2009 - 2014: **Belarusian-Russian University**; Engineer's Degree, Automated Processing Systems
 
-2007 – 2009: **Mogilev Regional Lyceum #3**; High School
+2007 - 2009: **Mogilev Regional Lyceum #3**; High School
 
 ## Projects
 
 ### ADF's Advanced Data Analysis Platform
 
-Aug 2022 – present
+Aug 2022 - present
 
-Led the development of a software appliance for forensic data analysis and case management. Designed to streamline data ingestion, processing, annotation, and reporting, empowering law enforcement and cybersecurity teams to work more efficiently with complex datasets.
+Architected and led the development of a software appliance for forensic data analysis and case management, then drove its shift to AI-powered analysis. The platform lets law enforcement and cybersecurity teams work with complex seized-device datasets, now through natural-language querying as well as classic search and review.
 
 Achievements:
 
-- Led platform and integration architecture
-- Designed Kubernetes-based infrastructure and deployments
-- Established CI/CD and release governance
-- Managed delivery for a hybrid team of 5–6 engineers; ran Agile ceremonies; coordinated with contractors/vendors
-- Drove code quality via reviews, refactoring, and standards
-- Built core .NET services/modules for scalable data processing
-- Implemented search and indexing with Elasticsearch
-- Aligned roadmap and priorities with stakeholders
+- Built multiple ML / AI and algorithm-driven data processing pipelines in Python on Apache Airflow - ingestion, enrichment, extraction, and indexing over large seized-device datasets
+- Shipped a production on-prem RAG system with an LLM-agnostic backend - swap models and providers without touching the app; retrieval entirely in Elasticsearch with cross-encoder reranking and no separate vector database to operate; orchestrated in .NET with Semantic Kernel, answers cited to source, full data isolation and audit logging
+- Tech lead for 5-9 engineers; system design from scratch - architecture, delivery, code review, and engineering standards
+- Owned CI/CD end to end - build, test, and release pipelines for an air-gapped appliance, including reproducible offline builds and versioned deployments
+- Shipped ML modules: speech-to-text, OCR, image classification, object detection, scene classification, person and age detection, document understanding, summarization, and social graph analysis
+- Built the platform underneath: air-gapped Kubernetes appliance, .NET microservices and APIs, and the Elasticsearch indexing layer - ingestion, annotation, and case management
 
-Technologies: .NET, Kubernetes, Docker, Azure, Apache Airflow, Elasticsearch, GitHub
+Technologies: RAG, LLMs, LLM-agnostic, Semantic Kernel, Hugging Face Transformers, PyTorch, TensorFlow, OCR, Computer Vision, Object Detection, Speech-to-Text, Social Graph Analysis, Elasticsearch, .NET, Python, Kubernetes, Apache Airflow, Azure, Docker
+
+---
+
+### Góra Print
+
+2025 - present
+
+A pet business project building custom 3D-printed physical terrain models from open geospatial data. Combines cartographic data processing, terrain modeling, and small-scale manufacturing into an end-to-end product. [instagram.com/goraprint](https://www.instagram.com/goraprint/)
+
+Achievements:
+
+- Built a Python pipeline for terrain model generation from open geospatial data (FABDEM, OpenStreetMap) - real topography, water networks, elevation gradients, and surface relief
+- Built a Python toolchain for preparing terrain models for 3D print production
+- Designed and implemented AI-powered customer workflow: order intake via LLM-based conversation, payment integration, and shipping preparation
+
+Technologies: Python, FABDEM, OpenStreetMap, Transformer Models, LLMs, 3D printing
+
+*P.S. Want a 3D model of your epic trail? Just reach out - early customers get a discount ;)*
 
 ---
 
 ### Ryanair's Schedule Management System
 
-Apr 2021 – Aug 2022
+Apr 2021 - Aug 2022
 
-Part of the team behind Ryanair's internal schedule management system. I designed and built microservices, collaborated across teams to improve processes, and delivered infrastructure components aligned with best practices.
-
-During my tenure at Ryanair, I demonstrated a strong background in microservices development using the AWS and .NET Core stacks, and I was highly familiar with agile development methodologies and continuous integration/continuous deployment (CI/CD) practices. I possess excellent problem-solving skills and communication skills, and I am highly effective at working collaboratively as part of a team.
+Backend engineer on Ryanair's internal schedule management system - one of Europe's largest low-cost carriers. Designed and shipped microservices for flight schedule management, led a zero-incident .NET migration, and improved CI pipeline reliability across the team.
 
 Achievements:
 
@@ -80,6 +102,7 @@ Achievements:
 - Led planning, estimation, and on-time delivery
 - Improved CI pipelines and developer throughput
 - Migrated legacy services from .NET 4.7 to .NET 6
+- Built internal WPF tooling for scheduling operations
 
 Technologies: .NET 6, AWS, Docker, PostgreSQL, Jenkins, WPF
 
@@ -87,7 +110,7 @@ Technologies: .NET 6, AWS, Docker, PostgreSQL, Jenkins, WPF
 
 ### BelVEB's B2B Platform
 
-Jan 2020 – Apr 2021
+Jan 2020 - Apr 2021
 
 A highly integrated B2B fintech platform allowing customers to use diverse financial and banking tools alongside the partnership services and programs facilitating a synergetic approach in business.
 
@@ -97,7 +120,7 @@ Achievements:
 - Designed solution architecture and cloud infrastructure
 - Drove planning, estimation, and predictable delivery
 - Managed 5+ direct reports; mentored and hired engineers
-- Built and operated dozens of microservices in a private cloud
+- Built and operated 50+ microservices in a private cloud
 - Took product from wireframes to production release
 
 Technologies: .NET Core, Kubernetes, Docker, PostgreSQL, MongoDB, Redis, RabbitMQ, ZooKeeper, ELK Stack
@@ -106,7 +129,7 @@ Technologies: .NET Core, Kubernetes, Docker, PostgreSQL, MongoDB, Redis, RabbitM
 
 ### Domino's E-Commerce Platform
 
-Jun 2019 – Jan 2020
+Jun 2019 - Jan 2020
 
 Next-generation E-Commerce platform using best of the breed technologies, processes, and architecture principles. I was responsible for the design and delivery of services that collectively form part of Domino's new multi-market high-performance platform designed to serve multiple markets.
 
@@ -124,7 +147,7 @@ Technologies: .NET Core, Azure, Kubernetes, Docker
 
 ### Coral MSP
 
-Jun 2017 – May 2019
+Jun 2017 - May 2019
 
 Cloud-based, secure B2B platform that sets industry standards while reducing operational costs. By connecting Media Networks, Broadcasters, and Distributors, it becomes possible to streamline all aspects of content distribution for both linear and non-linear TV. Flexible tools and services eliminate redundant data processing and create synergies with your business partners. Information is collected once, securely stored, and accessed from anywhere.
 
@@ -144,7 +167,7 @@ Technologies: .NET Framework, SQL Server, Redis, RabbitMQ, Azure, ELK Stack, Jen
 
 ### Social Network for Pets
 
-Oct 2018 – Feb 2019
+Oct 2018 - Feb 2019
 
 Designed and developed backend infrastructure for a next-generation application. Led a team to synchronize mockups with reality.
 
@@ -162,7 +185,7 @@ Technologies: .NET Framework, AWS, MySQL, TeamCity
 
 ### Coral's Performance and Load Test System
 
-Jun 2017 – Sep 2017
+Jun 2017 - Sep 2017
 
 Designed and led the development of a performance and load test system.
 
@@ -179,7 +202,7 @@ Technologies: .NET Framework, Azure, Microsoft Load Testing Framework, PowerShel
 
 ### Coral's Cloud-Based Ad Sales System
 
-Mar 2017 – Aug 2017
+Mar 2017 - Aug 2017
 
 The highly complex web application allows teams of sales and marketing professionals to collaborate across multiple networks on sponsorship offerings. The fully automated system is packed with helpful features that save time and limit costly mistakes. It provides much-needed visibility of inventory and campaign progress for executives.
 
@@ -195,7 +218,7 @@ Technologies: .NET Framework, SQL Server, Azure, Jenkins, DevExpress, JavaScript
 
 ### Web Portal and Services for Belarusian-Russian University
 
-Feb 2012 – Mar 2017
+Feb 2012 - Mar 2017
 
 Developed from scratch a public site and a big amount of internal subsystems for the university.
 
@@ -216,7 +239,7 @@ Technologies: .NET Framework, SQL Server, IIS, Windows Server, PowerShell, MSTes
 
 ### Wolters Kluwer's Project #2
 
-Sep 2015 – Mar 2017
+Sep 2015 - Mar 2017
 
 The brand-new version of a SaaS web solution for governance, risk management, and compliance. Includes a couple of web applications and REST services, forming a new solid products suite.
 
@@ -236,7 +259,7 @@ Technologies: .NET Framework, SQL Server, Selenium, Lucene, NuGet
 
 ### Wolters Kluwer's Project #1
 
-Sep 2014 – Mar 2017
+Sep 2014 - Mar 2017
 
 The product integrates the HITRUST Common Security Framework (CSF) with the industry's leading risk assessment workflow software to go far beyond simple risk analysis, combining control-based assessments, multi-stage remediation, robust monitoring, and intelligent analytics in one scalable and customizable Software as a Service solution.
 
@@ -252,7 +275,7 @@ Technologies: .NET Framework, Windows Services, SQL Server, Lucene
 
 ### Netologic's Mobile App for Market Profile Management and Admin Portal
 
-Feb 2014 – Jul 2014
+Feb 2014 - Jul 2014
 
 Designed and developed backend infrastructure to run proof of concept. Led the team.
 
@@ -272,7 +295,7 @@ Technologies: .NET Framework, Node.js, MongoDB, Azure, TeamCity, Objective-C
 
 ### Netologic's Project #2
 
-Jan 2012 – Mar 2014
+Jan 2012 - Mar 2014
 
 A web-based research evaluation and commission management system for Chief Investment and Compliance officers, money managers, research directors analysts, and compliance directors.
 
@@ -293,7 +316,7 @@ Technologies: .NET Framework, SQL Server, JavaScript, Selenium, TeamCity
 
 ### Netologic's Project #1
 
-Sep 2011 – Mar 2014
+Sep 2011 - Mar 2014
 
 Commission management solution designed to help clients to track and generate reports on execution and research commissions. System assists in reconciling and tracking CSA/CCA eligible and non-eligible trades and commissions based on client-defined rules. Generates customized commission reports by region, broker, portfolio manager, or other data points, based on your preferences and reporting requirements.
 
