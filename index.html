@@ -69,18 +69,15 @@
         <div class="hero-inner">
           <div class="hero-avatar-wrap">
             <img class="hero-avatar" src="./avatar.jpg" alt="Pavel Zaitsau" />
-            <span class="status-dot" title="Open to opportunities"></span>
           </div>
           <div class="hero-info">
-            <div class="role-badge">Tech Lead · AI / ML Systems</div>
+            <div class="role-badge">Tech Lead · AI / ML Systems · .NET</div>
             <h1 class="hero-name">Pavel Zaitsau</h1>
             <p class="hero-tagline">
               Builds production RAG &amp; LLM systems. 15+ years across .NET,
               data-heavy backends, and team leadership.
             </p>
             <div class="hero-meta">
-              <span>📍 Remote / EU</span>
-              <span class="sep">·</span>
               <span class="available">Open to opportunities</span>
               <span class="sep">·</span>
               <span>1k+ GitHub contributions/yr</span>
@@ -614,6 +611,22 @@
       </div>
     </section>
 
+    <!-- ── GitHub Activity ─────────────────────────────────────────────────── -->
+    <section class="gh-activity" id="activity">
+      <div class="container">
+        <h2 class="section-title">GitHub Activity</h2>
+        <p class="section-sub">Contributions over the last year</p>
+        <a
+          class="gh-graph-link"
+          href="https://github.com/pavelzaitsau"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="gh-graph" id="gh-graph" data-user="pavelzaitsau"></div>
+        </a>
+      </div>
+    </section>
+
     <!-- ── Tech Stack ──────────────────────────────────────────────────────── -->
     <section class="gear-locker" id="stack">
       <div class="container">
@@ -828,5 +841,164 @@
       </div>
     </footer>
 
+    <!-- ── Realtime GitHub contributions ───────────────────────────────────── -->
+    <script>
+      (function () {
+        var el = document.getElementById("gh-graph");
+        if (!el) return;
+        var user = el.getAttribute("data-user");
+
+        var CANVAS = "#0d1117";
+        var LEVELS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"];
+        var TEXT = "#7d8590";
+        var CELL = 11,
+          GAP = 3,
+          STEP = CELL + GAP,
+          TOP = 20,
+          LEFT = 30;
+        var FONT =
+          "-apple-system, Segoe UI, Helvetica, Arial, sans-serif";
+
+        function esc(s) {
+          return String(s).replace(/[<&>]/g, function (c) {
+            return { "<": "&lt;", ">": "&gt;", "&": "&amp;" }[c];
+          });
+        }
+
+        fetch(
+          "https://github-contributions-api.jogruber.de/v4/" +
+            encodeURIComponent(user) +
+            "?y=last"
+        )
+          .then(function (r) {
+            if (!r.ok) throw new Error("bad status " + r.status);
+            return r.json();
+          })
+          .then(function (data) {
+            var days = (data.contributions || [])
+              .map(function (d) {
+                return {
+                  date: new Date(d.date + "T00:00:00Z"),
+                  iso: d.date,
+                  count: d.count,
+                  level: d.level,
+                };
+              })
+              .sort(function (a, b) {
+                return a.date - b.date;
+              });
+            if (!days.length) throw new Error("no data");
+
+            // trim leading days until first Sunday (getUTCDay()===0)
+            var start = 0;
+            for (var i = 0; i < days.length; i++) {
+              if (days[i].date.getUTCDay() === 0) {
+                start = i;
+                break;
+              }
+            }
+            days = days.slice(start);
+
+            var total = 0,
+              rects = [],
+              months = [],
+              col = 0,
+              lastMonth = -1;
+            for (var j = 0; j < days.length; j++) {
+              var d = days[j];
+              total += d.count;
+              var row = d.date.getUTCDay();
+              if (j > 0 && row === 0) col++;
+              var x = LEFT + col * STEP;
+              var y = TOP + row * STEP;
+              var t =
+                d.count +
+                " contribution" +
+                (d.count === 1 ? "" : "s") +
+                " on " +
+                d.iso;
+              rects.push(
+                '<rect x="' +
+                  x +
+                  '" y="' +
+                  y +
+                  '" width="' +
+                  CELL +
+                  '" height="' +
+                  CELL +
+                  '" rx="2" ry="2" fill="' +
+                  LEVELS[d.level] +
+                  '"><title>' +
+                  esc(t) +
+                  "</title></rect>"
+              );
+              var m = d.date.getUTCMonth();
+              if (m !== lastMonth) {
+                months.push(
+                  '<text x="' +
+                    x +
+                    '" y="' +
+                    (TOP - 6) +
+                    '" fill="' +
+                    TEXT +
+                    '" font-size="10" font-family="' +
+                    FONT +
+                    '">' +
+                    d.date.toLocaleString("en-US", {
+                      month: "short",
+                      timeZone: "UTC",
+                    }) +
+                    "</text>"
+                );
+                lastMonth = m;
+              }
+            }
+
+            var wd = { 1: "Mon", 3: "Wed", 5: "Fri" },
+              wdLabels = [];
+            for (var r in wd) {
+              wdLabels.push(
+                '<text x="0" y="' +
+                  (TOP + r * STEP + CELL - 1) +
+                  '" fill="' +
+                  TEXT +
+                  '" font-size="9" font-family="' +
+                  FONT +
+                  '">' +
+                  wd[r] +
+                  "</text>"
+              );
+            }
+
+            var w = LEFT + (col + 1) * STEP + 4;
+            var h = TOP + 7 * STEP + 4;
+            el.innerHTML =
+              '<svg xmlns="http://www.w3.org/2000/svg" width="100%" ' +
+              'viewBox="0 0 ' +
+              w +
+              " " +
+              h +
+              '" role="img" aria-label="' +
+              esc(user) +
+              " GitHub contributions - " +
+              total +
+              ' in the last year"><rect width="' +
+              w +
+              '" height="' +
+              h +
+              '" fill="' +
+              CANVAS +
+              '"/>' +
+              months.join("") +
+              wdLabels.join("") +
+              rects.join("") +
+              "</svg>";
+          })
+          .catch(function () {
+            var s = document.getElementById("activity");
+            if (s) s.style.display = "none";
+          });
+      })();
+    </script>
   </body>
 </html>

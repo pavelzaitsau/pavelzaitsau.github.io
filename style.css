@@ -128,16 +128,6 @@ section { padding: 80px 0; }
   border: 3px solid var(--accent);
   object-fit: cover;
 }
-.status-dot {
-  position: absolute;
-  bottom: 4px;
-  right: 4px;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #00d26a;
-  border: 2px solid var(--bg-primary);
-}
 .hero-info { flex: 1; }
 .role-badge {
   display: inline-block;
@@ -195,6 +185,31 @@ section { padding: 80px 0; }
   transition: border-color 0.15s, color 0.15s;
 }
 .hero-link:hover { color: var(--text-primary); border-color: var(--accent-border); text-decoration: none; }
+
+/* ─── GitHub Activity ────────────────────────────────────────────────────── */
+.gh-activity { background: var(--bg-primary); }
+.gh-graph-link {
+  display: block;
+  background: #0d1117;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.gh-graph-link:hover {
+  border-color: var(--accent-border);
+  box-shadow: 0 8px 32px var(--accent-glow);
+  text-decoration: none;
+}
+.gh-graph {
+  width: 100%;
+  display: block;
+}
+.gh-graph svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* ─── Experience ─────────────────────────────────────────────────────────── */
 .experience { background: var(--bg-card); }
