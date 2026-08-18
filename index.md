@@ -26,7 +26,7 @@ Hands-on technical leader with 15+ years of experience, now focused on shipping 
 
 ## Experience
 
-2022 - present: **Tech Lead, AI / ML** at ADF Solutions, Inc
+2022 - 2026: **Tech Lead, AI / ML** at ADF Solutions, Inc
 
 2025 - present: **Co-Founder** at Góra Print
 
@@ -54,7 +54,7 @@ Hands-on technical leader with 15+ years of experience, now focused on shipping 
 
 ### ADF's Advanced Data Analysis Platform
 
-Aug 2022 - present
+Aug 2022 - Jul 2026
 
 Architected and led the development of a software appliance for forensic data analysis and case management, then drove its shift to AI-powered analysis. The platform lets law enforcement and cybersecurity teams work with complex seized-device datasets, now through natural-language querying as well as classic search and review.
 
