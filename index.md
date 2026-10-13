@@ -1,6 +1,6 @@
 # Pavel Zaitsau
 
-## Tech Lead · AI / ML Systems
+## Staff AI / ML Engineer
 
 email: [pavel.zaitsau@hotmail.com](mailto:pavel.zaitsau@hotmail.com)
 
@@ -16,7 +16,7 @@ instagram: [pavelzaitsau](https://www.instagram.com/pavelzaitsau)
 
 ## Summary
 
-Hands-on technical leader with 15+ years of experience, now focused on shipping AI/ML systems to production. I designed and delivered a production RAG system over forensic data, built on Elasticsearch: hybrid retrieval, cross-encoder reranking, LLM orchestration in .NET, and on-prem model serving for sensitive, isolated environments. This builds on deep engineering in systems design, cloud platforms, microservices, CI/CD, and performance tuning at scale. Recognized for clear architecture, pragmatic delivery, and raising engineering standards through reviews, testing, and mentoring. Practical, fast, and trusted to get things done.
+Hands-on technical leader with 15+ years of experience, now a Staff Agentic Engineer at ENDGAME. Before ENDGAME, I designed and delivered a production RAG system over forensic data, built on Elasticsearch: hybrid retrieval, cross-encoder reranking, LLM orchestration in .NET, and on-prem model serving for sensitive, isolated environments. This builds on deep engineering in systems design, cloud platforms, microservices, CI/CD, and performance tuning at scale. Recognized for clear architecture, pragmatic delivery, and raising engineering standards through reviews, testing, and mentoring. Practical, fast, and trusted to get things done.
 
 ## Stack
 
@@ -26,9 +26,11 @@ Hands-on technical leader with 15+ years of experience, now focused on shipping 
 
 ## Experience
 
-2022 - 2026: **Tech Lead, AI / ML** at ADF Solutions, Inc
+2026 - present: **Staff Agentic Engineer** at [ENDGAME](https://end.game)
 
-2025 - present: **Co-Founder** at Góra Print
+2025 - 2026: **Co-Founder** at Góra Print
+
+2022 - 2026: **Tech Lead, AI / ML** at ADF Solutions, Inc
 
 2021 - 2022: **Software Engineer** at Ryanair
 
@@ -52,6 +54,30 @@ Hands-on technical leader with 15+ years of experience, now focused on shipping 
 
 ## Projects
 
+### ENDGAME
+
+2026 - present
+
+Engineering carbon-silicon symbiosis. Occasionally resolving merge conflicts.
+
+---
+
+### Góra Print
+
+2025 - 2026
+
+A pet business project building custom 3D-printed physical terrain models from open geospatial data. Combines cartographic data processing, terrain modeling, and small-scale manufacturing into an end-to-end product. [instagram.com/goraprint](https://www.instagram.com/goraprint/)
+
+Achievements:
+
+- Built a Python pipeline for terrain model generation from open geospatial data (FABDEM, OpenStreetMap) - real topography, water networks, elevation gradients, and surface relief
+- Built a Python toolchain for preparing terrain models for 3D print production
+- Designed and implemented AI-powered customer workflow: order intake via LLM-based conversation, payment integration, and shipping preparation
+
+Technologies: Python, FABDEM, OpenStreetMap, Transformer Models, LLMs, 3D printing
+
+---
+
 ### ADF's Advanced Data Analysis Platform
 
 Aug 2022 - Jul 2026
@@ -68,24 +94,6 @@ Achievements:
 - Built the platform underneath: air-gapped Kubernetes appliance, .NET microservices and APIs, and the Elasticsearch indexing layer - ingestion, annotation, and case management
 
 Technologies: RAG, LLMs, LLM-agnostic, Semantic Kernel, Hugging Face Transformers, PyTorch, TensorFlow, OCR, Computer Vision, Object Detection, Speech-to-Text, Social Graph Analysis, Elasticsearch, .NET, Python, Kubernetes, Apache Airflow, Azure, Docker
-
----
-
-### Góra Print
-
-2025 - present
-
-A pet business project building custom 3D-printed physical terrain models from open geospatial data. Combines cartographic data processing, terrain modeling, and small-scale manufacturing into an end-to-end product. [instagram.com/goraprint](https://www.instagram.com/goraprint/)
-
-Achievements:
-
-- Built a Python pipeline for terrain model generation from open geospatial data (FABDEM, OpenStreetMap) - real topography, water networks, elevation gradients, and surface relief
-- Built a Python toolchain for preparing terrain models for 3D print production
-- Designed and implemented AI-powered customer workflow: order intake via LLM-based conversation, payment integration, and shipping preparation
-
-Technologies: Python, FABDEM, OpenStreetMap, Transformer Models, LLMs, 3D printing
-
-*P.S. Want a 3D model of your epic trail? Just reach out - early customers get a discount ;)*
 
 ---
 
