@@ -346,3 +346,68 @@ section { padding: 80px 0; }
   .activity-card::before { left: -23px; }
   .activity-feed::before { left: 4px; }
 }
+
+/* ─── Print ──────────────────────────────────────────────────────────────── */
+@page { size: A4; margin: 14mm 16mm; }
+
+@media print {
+  :root {
+    --accent:       #c23a00;
+    --accent-dim:   transparent;
+    --accent-border:#c23a00;
+    --text-primary: #111;
+    --text-sec:     #444;
+    --text-muted:   #777;
+    --border:       #ddd;
+  }
+  body { background: #fff; font-size: 10pt; line-height: 1.45; }
+  a { color: inherit; }
+  .container { max-width: none; padding: 0; }
+  section { padding: 0; }
+
+  .topnav,
+  .gh-activity,
+  .site-footer { display: none; }
+
+  .hero { padding: 0 0 6mm; animation: none; border-bottom: 1px solid var(--border); }
+  .hero-inner { flex-direction: row; align-items: center; text-align: left; gap: 6mm; }
+  .hero-avatar { width: 22mm; height: 22mm; border-width: 2px; }
+  .role-badge { padding: 0; border: 0; font-size: 9pt; margin-bottom: 1mm; }
+  .hero-name { font-size: 22pt; margin-bottom: 0; }
+  .hero-links { justify-content: flex-start; gap: 1mm 5mm; margin-top: 2.5mm; }
+  /* Paper cannot follow a link, so each contact prints its address instead of its label. */
+  .hero-link { padding: 0; border: 0; background: none; font-size: 0; color: var(--text-sec); }
+  .hero-link:not([data-print]),
+  .hero-link svg { display: none; }
+  .hero-link::after { content: attr(data-print); font-size: 8.5pt; font-weight: 500; }
+
+  .experience { background: none; padding-top: 6mm; }
+  .section-title { font-size: 13pt; margin-bottom: 0; }
+  .section-sub { font-size: 8.5pt; margin-bottom: 4mm; }
+
+  .activity-feed { padding-left: 0; }
+  .activity-feed::before,
+  .activity-card::before { display: none; }
+  .activity-card {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    padding: 0 0 4mm;
+    margin-bottom: 4mm;
+    break-inside: avoid;
+  }
+  .activity-card:last-child { border-bottom: 0; }
+  .activity-meta { gap: 2mm; margin-bottom: 1.5mm; }
+  .company-logo,
+  .company-logo-fallback { width: 7mm; height: 7mm; border-radius: 1.5mm; border-color: var(--border); }
+  .company-logo-fallback { font-size: 4.5pt; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .activity-role,
+  .activity-company { font-size: 10pt; }
+  .activity-date { font-size: 9pt; margin-left: auto; }
+  .activity-desc { font-size: 9pt; margin-bottom: 1.5mm; }
+  .activity-achievements { margin-bottom: 2mm; }
+  .activity-achievements li { font-size: 9pt; padding: 0.3mm 0 0.3mm 3.5mm; line-height: 1.4; }
+  .activity-tags { gap: 1mm 2.5mm; }
+  .tag { padding: 0; border: 0; background: none; font-size: 7.5pt; font-weight: 500; color: var(--text-muted); }
+}
